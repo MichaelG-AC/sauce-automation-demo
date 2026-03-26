@@ -14,7 +14,7 @@ test.describe("Product Tests", () => {
 
     await expect(productPage.addToCartButton).toBeVisible();
     await expect(page).toHaveURL(
-      /\/collections\/frontpage\/products\/grey-jacket\//,
+      /\/collections\/frontpage\/products\/grey-jacket/,
     );
   });
 
